@@ -12,15 +12,13 @@ function myFunction() {
 }
 function alertAndLogDate(){
     
-1. get date and time and store in variable because we are using the value for two different method call
-
+// get date and time and store in variable because we are using the value for two different method calls
     var date = myFunction();
     
-2. send alert with that date clear Timeout
+// send alert with that date clear Timeout
+    alert(Date());
     
-    alert(date);
-
-3. log the date to console   
+// log the date to console  
     console.log(Date());
 
 }
